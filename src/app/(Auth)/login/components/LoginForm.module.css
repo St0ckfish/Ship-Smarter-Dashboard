@@ -1,0 +1,18 @@
+.button {
+  background: #6315db;
+  box-shadow: 0px 16px 32px 0px #6315db40;
+  align-self: center;
+}
+
+.signup__text {
+  padding-block: var(--heading-padding-block);
+}
+
+.signup__link {
+  text-decoration: underline;
+}
+
+.forget__password__text {
+  display: flex;
+  justify-content: flex-end;
+}

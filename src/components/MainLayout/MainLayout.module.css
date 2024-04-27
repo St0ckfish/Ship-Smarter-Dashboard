@@ -1,0 +1,13 @@
+.main__container {
+  /* --padding-inline-main-container: 3.75rem; */
+  --padding-inline-main-container: calc(3vw + 0.65rem);
+
+  /* margin-block: 0;
+  margin-inline: auto; */
+  max-width: var(--max-width);
+  /* padding-inline: var(--padding-inline-main-container); */
+  /* padding-inline: 0rem; */
+}
+/* ------> Responsive Padding Media Queries  */
+
+/*  Responsive Padding Media Queries  End <------ */

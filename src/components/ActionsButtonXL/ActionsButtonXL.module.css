@@ -1,0 +1,63 @@
+.actions__button {
+  background: #6315db;
+  box-shadow: 0px 16px 32px 0px #6315db26;
+  min-width: 16.25rem;
+  height: 2.9rem;
+  padding-block: 1rem 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 16px 32px 0px #6315db26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+
+.button__icon {
+  font-size: 2rem;
+}
+
+.button__text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* 
+
+
+purple
+background: #6315DB;
+
+box-shadow: 0px 16px 32px 0px #6315DB26;
+
+FONT
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+background: rgba(255, 255, 255, 1);
+
+
+BTN
+width: Hug (262px)px;
+height: Fixed (46px)px;
+padding: 16px 24px 16px 24px;
+gap: 10px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+
+ICN
+width: 24px;
+height: 24px;
+padding: 3px 3.5px 3.5px 3px;
+gap: 0px;
+opacity: 0px;
+
+*/

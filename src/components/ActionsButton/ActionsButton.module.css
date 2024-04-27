@@ -1,0 +1,71 @@
+/**
+
+purple
+background: #6315DB;
+
+box-shadow: 0px 16px 32px 0px #6315DB26;
+
+FONT
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+background: rgba(255, 255, 255, 1);
+
+
+BTN
+width: Hug (262px)px;
+height: Fixed (46px)px;
+padding: 16px 24px 16px 24px;
+gap: 10px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+
+ICN
+width: 24px;
+height: 24px;
+padding: 3px 3.5px 3.5px 3px;
+gap: 0px;
+opacity: 0px;
+
+
+----------------------------
+
+light blue
+
+width: Fixed (50px)px;
+height: Fixed (24px)px;
+padding: var(--ComponentsBadgeSpacingX) var(--ComponentsBadgeSpacingY) var(--ComponentsBadgeSpacingX) var(--ComponentsBadgeSpacingY);
+gap: var(--ComponentsBadgeGapBetween);
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+background: rgba(204, 251, 241, 1);
+
+---------------
+pink
+
+width: Fixed (50px)px;
+height: Fixed (24px)px;
+padding: var(--ComponentsBadgeSpacingX) var(--ComponentsBadgeSpacingY) var(--ComponentsBadgeSpacingX) var(--ComponentsBadgeSpacingY);
+gap: var(--ComponentsBadgeGapBetween);
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+
+background: rgba(254, 226, 226, 1);
+
+
+
+
+font-family: Montserrat;
+font-size: 8px;
+font-weight: 500;
+line-height: 9.75px;
+text-align: center;
+background: rgba(34, 39, 46, 1);
+
+
+*/
