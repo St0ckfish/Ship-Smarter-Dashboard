@@ -1,0 +1,44 @@
+/* [project]/src/app/(Dashboard)/DashboardLayout.module.css [app-ssr] (css) */
+.container__DashboardLayout__afce659b {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.wide__container__DashboardLayout__afce659b {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.right__side__wrapper__DashboardLayout__afce659b {
+  width: 100%;
+  height: 100%;
+  width: calc(100% - 18rem);
+}
+.wide__right__side__DashboardLayout__afce659b {
+  width: 100%;
+  height: 100%;
+  width: calc(100% - 7rem);
+}
+.right__side__DashboardLayout__afce659b {
+  padding-block: 1rem 2rem;
+  padding-inline: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 250, 250, 1);
+}
+.right__side__logo__img__DashboardLayout__afce659b {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .container__DashboardLayout__afce659b {
+    display: block;
+  }
+  .right__side__DashboardLayout__afce659b {
+    padding-block: 2rem;
+  }
+  .right__side__logo__img__DashboardLayout__afce659b {
+    display: block;
+    padding-block: 1rem 1.5rem;
+  }
+}
+/*# sourceMappingURL=src_app_(Dashboard)_DashboardLayout_module_31ffea.css.map*/

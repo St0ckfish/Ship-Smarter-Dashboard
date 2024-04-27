@@ -1,0 +1,237 @@
+/* [project]/src/app/styles/globals.css [app-client] (css) */
+@layer mantine, mantine-datatable;
+@font-face{
+  font-family: Montserrat;
+  src: url("../media/Montserrat-VariableFont_wght.616d55c7.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: Montserrat;
+  src: url("../media/Montserrat-Italic-VariableFont_wght.93281b30.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: auto;
+}
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --dark-color: #1e293b;
+  --primary-color: #774dd3;
+  --secondery-color: #64748b;
+  --info-color: #55a6f8;
+  --success-color: #67c23a;
+  --danger-color: #ea4e3d;
+  --warning-color: #f19937;
+  --gray-100-color: #f9fafb;
+  --gray-200-color: #e9ecef;
+  --gray-300-color: #dde0e5;
+  --gray-400-color: #ced4da;
+  --gray-500-color: #adb5bd;
+  --gray-600-color: #6c757d;
+  --gray-700-color: #495057;
+  --gray-800-color: #343a40;
+  --gray-900-color: #212529;
+  --blue-btn-bkg: rgb(0, 100, 230);
+  --blue-btn-text-color: #c2f6ff;
+  --purple-btn-bkg: var(--primary-color);
+  --purple-btn-text-color: #fff;
+  --gray-custom-color: #2d2f31;
+  --background-color: var(--gray-200-color);
+  --paragraph-color: var(--gray-700-color);
+  --max-width: 1440px;
+  --main-width: 1240px;
+  --spacer1: 0.25rem;
+  --spacer2: 0.5rem;
+  --spacer3: 1rem;
+  --spacer4: 1.25rem;
+  --spacer5: 1.5rem;
+  --spacer6: 1.75rem;
+  --spacer7: 2rem;
+  --spacer8: 2.25rem;
+  --spacer9: 2.5rem;
+  --spacer10: 2.75rem;
+  --spacer11: 3rem;
+  --section-padding-block: calc(2rem + 2vw);
+  --section-padding-top: 1.5rem;
+  --section-padding-bottom: 1.5rem;
+  --section-padding-left: 1.5rem;
+  --section-padding-right: 1.5rem;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --title-small-fsz: calc(10px + 5vw);
+  --title-meduim-fsz: clamp(1.5rem, 5vw, 2rem);
+  --title-large-fsz: clamp(2.6rem, 3.8vw, 3.6rem);
+  --h1-fsz: 2.986rem;
+  --h2-fsz: 2.488rem;
+  --h3-fsz: 2.074rem;
+  --h4-fsz: 1.728rem;
+  --h5-fsz: 1.44rem;
+  --h6-fsz: 1.2rem;
+  --h1-fsz-compact: 2.027rem;
+  --h2-fsz-compact: 1.802rem;
+  --h3-fsz-compact: 1.602rem;
+  --h4-fsz-compact: 1.424rem;
+  --h5-fsz-compact: 1.266rem;
+  --h6-fsz-compact: 1.125rem;
+  --font-size-base: clamp(1.3rem, 1.9vw, 1.7rem);
+  --font-size-xxx-small: 45%;
+  --font-size-xx-small: 55%;
+  --font-size-x-small: 62%;
+  --font-size-small: 80%;
+  --font-size-medium: 100%;
+  --font-size-large: 125%;
+  --font-size-x-large: 160%;
+  --font-size-xx-large: 200%;
+  --font-size-xxx-large: 260%;
+  --font-size-body-xlarge: 19px;
+  --font-size-body-large: 16px;
+  --font-size-body: 14px;
+  --font-size-body-small: 12px;
+  --font-size-body-xsmall: 10px;
+  --heading-width: fit-content;
+  --heading-line-height: calc(1em + 0.725rem);
+  --heading-padding-top: 1.25rem;
+  --heading-padding-bottom: 1.25rem;
+  --heading-padding-block: 1.25rem;
+  --heading-padding-inline: 1.25rem;
+  --p-fsz-large: 1.35rem;
+  --p-fsz-meduim: 1.125rem;
+  --p-fsz-small: 1rem;
+  --p-width: 90%;
+  --p-padding-top: 1.25rem;
+  --p-padding-bottom: 1.25rem;
+  --btn-fsz-large: 1.6rem;
+  --btn-fsz-meduim: 1.3rem;
+  --btn-fsz-small: 1rem;
+  --line-height-1-3: 1.3;
+  --line-height-1-6: 1.6;
+  --nav-item-fsz: 1.125rem;
+  --nav-item-fw: bold;
+  --border-radius-30: 1.875rem;
+  --border-radius-28: 1.75rem;
+  --border-radius-16: 1rem;
+  --border-radius-8: 0.5rem;
+  --gradient-color-red: linear-gradient(
+    336deg,
+    #da2c08 0%,
+    #e24e72 49.49%,
+    #395ab0 100%
+  );
+  --gradient-color-variant-315deg: conic-gradient(
+    from 315deg,
+    #774ed3,
+    #56a7f8
+  );
+  --gradient-color-variant-45deg: conic-gradient(from 45deg, #774ed3, #56a7f8);
+  --gradient-color-dark-radial: radial-gradient(
+    circle,
+    hsla(5deg, 28%, 72%, 100%) 13%,
+    hsla(127deg, 27%, 31%, 100%) 48%,
+    hsla(170deg, 27%, 56%, 100%) 92%
+  );
+}
+*, 
+*::after, 
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+input, 
+textarea, 
+button {
+  font-family: inherit;
+}
+textarea {
+  resize: none;
+}
+img {
+  max-width: 100%;
+  font-style: italic;
+  vertical-align: middle;
+}
+img[width], 
+img[height] {
+  max-width: none;
+}
+li {
+  list-style: none;
+  line-height: 1.5em;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  overflow-wrap: break-word;
+}
+.spacer1 {
+  padding-block: var(--spacer1);
+}
+.spacer2 {
+  padding-block: var(--spacer2);
+}
+.spacer3 {
+  padding-block: var(--spacer3);
+}
+.spacer4 {
+  padding-block: var(--spacer4);
+}
+.spacer5 {
+  padding-block: var(--spacer5);
+}
+.spacer6 {
+  padding-block: var(--spacer6);
+}
+.spacer7 {
+  padding-block: var(--spacer7);
+}
+.spacer8 {
+  padding-block: var(--spacer8);
+}
+.spacer9 {
+  padding-block: var(--spacer9);
+}
+.spacer10 {
+  padding-block: var(--spacer10);
+}
+.spacer11 {
+  padding-block: var(--spacer11);
+}
+.button {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 2.8rem;
+  min-width: 9rem;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  padding-inline: 2.25rem;
+  padding-block: 0.8rem;
+}
+.nav-open {
+  overflow: hidden;
+  height: 100vh;
+}
+/*# sourceMappingURL=src_app_styles_globals_b52d8e.css.map*/

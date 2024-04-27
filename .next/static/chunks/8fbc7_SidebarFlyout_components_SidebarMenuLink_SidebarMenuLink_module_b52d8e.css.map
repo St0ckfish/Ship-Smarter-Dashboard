@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css"],"sourcesContent":[".menu__item__link {\n  display: flex;\n  column-gap: 0.6rem;\n  align-items: center;\n  padding-block: 0.875rem;\n  padding-inline: 1rem;\n  font-size: 1rem;\n}\n\n.active {\n  width: auto;\n  background: linear-gradient(\n    180deg,\n    #f2f2f2 -77.59%,\n    rgba(242, 242, 242, 0) 136.21%\n  );\n\n  /* padding-inline: 2.5rem; */\n  border-radius: 10px;\n}\n\n/*# sourceMappingURL=SidebarMenuLink.module.css.map */"],"names":[],"mappings":"AAAA,CAAC,2CAAgB,CAAC,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,GAAG,GAAG;EAClB,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,KAAK,GAAG;EACvB,cAAc,EAAE,CAAC,GAAG;EACpB,SAAS,EAAE,CAAC,GAAG;AACjB,CAAC;AAED,CAAC,iCAAM,CAAC,CAAC;EACP,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,eAAe,CACzB,GAAG,GAAG,CAAC,CACP,OAAO,CAAC,MAAM,CAAC,CAAC,CAChB,IAAI,CAAC,GAAG,CAAC,CAAC,GAAG,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC,EAAE,MAAM,CAAC;EAIhC,aAAa,EAAE,EAAE,EAAE;AACrB,CAAC"}},
+    {"offset": {"line": 13, "column": 1}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

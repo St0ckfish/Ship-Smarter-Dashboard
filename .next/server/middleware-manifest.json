@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_5e7af8._.js",
+        "server/edge/chunks/src_middleware_ts_9f486c._.js",
+        "server/edge/chunks/edge-wrapper_30fe2c.js",
+        "server/edge/chunks/edge-wrapper_8cc67a.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "locale": false,
+          "originalSource": "/dashboard",
+          "regexp": "^/dashboard$"
+        },
+        {
+          "locale": false,
+          "originalSource": "/new-collection",
+          "regexp": "^/new-collection$"
+        },
+        {
+          "locale": false,
+          "originalSource": "/awaiting-collection",
+          "regexp": "^/awaiting-collection$"
+        },
+        {
+          "locale": false,
+          "originalSource": "/shipping-company",
+          "regexp": "^/shipping-company$"
+        },
+        {
+          "locale": false,
+          "originalSource": "/distributors",
+          "regexp": "^/distributors$"
+        }
+      ]
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}

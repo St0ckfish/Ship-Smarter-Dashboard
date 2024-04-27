@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/components/MainLayout/MainLayout.module.css"],"sourcesContent":[".main__container {\n  /* --padding-inline-main-container: 3.75rem; */\n  --padding-inline-main-container: calc(3vw + 0.65rem);\n\n  /* margin-block: 0;\n  margin-inline: auto; */\n  max-width: var(--max-width);\n  /* padding-inline: var(--padding-inline-main-container); */\n  /* padding-inline: 0rem; */\n}\n/* ------> Responsive Padding Media Queries  */\n\n/*  Responsive Padding Media Queries  End <------ */\n\n/*# sourceMappingURL=MainLayout.module.css.map */"],"names":[],"mappings":"AAAA,CAAC,qCAAe,CAAC,CAAC;EAEhB,EAAE,AAAF,6BAA+B,EAAE,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC,OAAO;EAInD,SAAS,EAAE,GAAG,CAAC,EAAE,AAAF,SAAW;AAG5B,CAAC"}},
+    {"offset": {"line": 4, "column": 1}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

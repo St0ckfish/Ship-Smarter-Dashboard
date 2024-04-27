@@ -1,0 +1,17 @@
+/* [project]/src/app/(Auth)/login/components/LoginForm.module.css [app-client] (css) */
+.button__LoginForm__7fd8fc64 {
+  background: #6315db;
+  box-shadow: 0px 16px 32px 0px #6315db40;
+  align-self: center;
+}
+.signup__text__LoginForm__7fd8fc64 {
+  padding-block: var(--heading-padding-block);
+}
+.signup__link__LoginForm__7fd8fc64 {
+  text-decoration: underline;
+}
+.forget__password__text__LoginForm__7fd8fc64 {
+  display: flex;
+  justify-content: flex-end;
+}
+/*# sourceMappingURL=src_app_(Auth)_login_components_LoginForm_module_b52d8e.css.map*/

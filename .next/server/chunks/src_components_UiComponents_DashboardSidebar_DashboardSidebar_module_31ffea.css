@@ -1,0 +1,71 @@
+/* [project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.module.css [app-ssr] (css) */
+.sidebar__wrapper__DashboardSidebar__dd5bc386 {
+  height: 100%;
+  overflow: auto;
+  width: 16rem;
+}
+.narrow__sidebar__wrapper__DashboardSidebar__dd5bc386 {
+  width: 7rem;
+}
+.sidebar__DashboardSidebar__dd5bc386 {
+  background: linear-gradient(154.99deg, #6315db 32.75%, rgba(236, 46, 118, 0.5) 99.24%);
+  width: 16rem;
+  overflow: auto;
+  padding-inline: 0.5rem;
+  padding-block: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+  min-height: 100dvh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  flex: 0;
+}
+.narrow__sidebar__DashboardSidebar__dd5bc386 {
+  background: linear-gradient(154.99deg, #6315db 32.75%, rgba(236, 46, 118, 0.5) 99.24%);
+  overflow: auto;
+  width: 7rem;
+  padding-inline: 0.8rem;
+  padding-block: 1.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  text-align: center;
+  min-height: 100dvh;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.back__arrow__button__DashboardSidebar__dd5bc386 {
+  all: unset;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.right__arrow__DashboardSidebar__dd5bc386 {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(180deg);
+}
+.items__container__DashboardSidebar__dd5bc386 {
+  padding-block: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+@media screen and (max-width: 992px) {
+  .sidebar__DashboardSidebar__dd5bc386, 
+  .narrow__sidebar__wrapper__DashboardSidebar__dd5bc386 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=src_components_UiComponents_DashboardSidebar_DashboardSidebar_module_31ffea.css.map*/

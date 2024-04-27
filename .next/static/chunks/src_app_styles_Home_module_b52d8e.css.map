@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/app/styles/Home.module.css"],"sourcesContent":[".menu {\n  display: flex;\n  flex-direction: column;\n  row-gap: 1rem;\n  align-items: center;\n}\n\n.main {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  padding: 6rem;\n  min-height: 100vh;\n}\n\n/*# sourceMappingURL=Home.module.css.map */"],"names":[],"mappings":"AAAA,CAAC,oBAAI,CAAC,CAAC;EACL,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,OAAO,EAAE,CAAC,GAAG;EACb,WAAW,EAAE,MAAM;AACrB,CAAC;AAED,CAAC,oBAAI,CAAC,CAAC;EACL,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,CAAC,GAAG;EACb,UAAU,EAAE,GAAG,EAAE;AACnB,CAAC"}},
+    {"offset": {"line": 14, "column": 1}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

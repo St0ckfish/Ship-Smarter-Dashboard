@@ -1,0 +1,102 @@
+/* [project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/SidebarFlyoutGlobalStyles.css [app-client] (css) */
+.toggle__checkbox {
+  display: none;
+}
+.hamburger__button {
+  position: fixed;
+  top: 1.1rem;
+  left: 0.7rem;
+  z-index: 1001;
+  display: none;
+  cursor: pointer;
+}
+.mobile__menu__inner__wrapper {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  background-color: #6315db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar__wrapper {
+  height: 100%;
+  overflow: auto;
+  width: 16rem;
+}
+.narrow__sidebar__wrapper {
+  width: 7rem;
+}
+.sidebar {
+  overflow: auto;
+  background: linear-gradient(154.99deg, #6315db 32.75%, rgba(236, 46, 118, 0.5) 99.24%);
+  width: 16rem;
+  padding-inline: 0.5rem;
+  padding-block: 1rem 2rem;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+  min-height: 100dvh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+.narrow__sidebar {
+  background: linear-gradient(154.99deg, #6315db 32.75%, rgba(236, 46, 118, 0.5) 99.24%);
+  overflow: auto;
+  width: 7rem;
+  padding-inline: 0.8rem;
+  padding-block: 1.2rem 2rem;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  text-align: center;
+  min-height: 100dvh;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+.back__arrow__button {
+  all: unset;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding-top: 0.3rem;
+}
+.right__arrow {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(180deg) translateX(-13px);
+}
+.items__container {
+  padding-block: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+@media screen and (max-width: 992px) {
+  .hamburger__button {
+    display: block;
+  }
+  .toggle__checkbox:checked ~ .sidebar {
+    display: flex;
+  }
+  .toggle__checkbox:checked ~ .narrow__sidebar {
+    display: flex;
+  }
+  .toggle__checkbox:checked + .hamburger__button .icon {
+    fill: #6315db;
+  }
+  .toggle__checkbox:checked + .hamburger__button .mobile__menu__inner__wrapper {
+    background-color: #fff;
+  }
+}
+/*# sourceMappingURL=bef6a_(Dashboard)_DashboardComponents_SidebarFlyout_SidebarFlyoutGlobalStyles_b52d8e.css.map*/

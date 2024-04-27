@@ -1,0 +1,126 @@
+/* [project]/src/app/(Auth)/login/Login.module.css [app-client] (css) */
+.form__container__Login__18491200 {
+  width: 100%;
+  max-width: 28rem;
+}
+.right__side__text__Login__18491200 {
+  padding-bottom: 3rem;
+}
+.right__side__text__Login__18491200 h2 {
+  padding-bottom: 1rem;
+}
+.form__container__Login__18491200 {
+  width: 100%;
+  max-width: 28rem;
+}
+.button__Login__18491200 {
+  background: #6315db;
+  box-shadow: 0px 16px 32px 0px #6315db40;
+}
+.error__Login__18491200 {
+  color: red;
+}
+
+/* [project]/src/app/(Auth)/login/components/LoginForm.module.css [app-client] (css) */
+.button__LoginForm__7fd8fc64 {
+  background: #6315db;
+  box-shadow: 0px 16px 32px 0px #6315db40;
+  align-self: center;
+}
+.signup__text__LoginForm__7fd8fc64 {
+  padding-block: var(--heading-padding-block);
+}
+.signup__link__LoginForm__7fd8fc64 {
+  text-decoration: underline;
+}
+.forget__password__text__LoginForm__7fd8fc64 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* [project]/src/components/MainLayout/MainLayout.module.css [app-client] (css) */
+.main__container__MainLayout__c96ef225 {
+  --padding-inline-main-container: calc(3vw + 0.65rem);
+  max-width: var(--max-width);
+}
+
+/* [project]/src/components/UiComponents/Sidebar/Sidebar.module.css [app-client] (css) */
+.sidebar__Sidebar__b3261e69 {
+  background: linear-gradient(154.99deg, #6315db 32.75%, rgba(236, 46, 118, 0.5) 99.24%);
+  padding-inline: 2rem;
+  padding-block: 2rem;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+}
+.logo__img__Sidebar__b3261e69 {
+  align-self: flex-start;
+}
+.sidebar__featured__img__variant__Sidebar__b3261e69 {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  transform: translateX(170px);
+}
+.sidebar__img__wrapper__Sidebar__b3261e69 {
+  display: flex;
+}
+.sidebar__featured__img__Sidebar__b3261e69 {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  align-self: center;
+}
+@media screen and (max-width: 1100px) {
+  .sidebar__featured__img__variant__Sidebar__b3261e69 {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    align-self: center;
+    transform: translateX(0px);
+  }
+}
+@media screen and (max-width: 992px) {
+  .sidebar__Sidebar__b3261e69 {
+    display: none;
+  }
+}
+
+/* [project]/src/app/(Auth)/authlayout.module.css [app-client] (css) */
+.container__authlayout__95fe15c {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  justify-content: space-between;
+}
+.right__side__authlayout__95fe15c {
+  padding-inline: var(--heading-padding-inline);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right__side__logo__img__authlayout__95fe15c {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .container__authlayout__95fe15c {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .right__side__authlayout__95fe15c {
+    padding-block: 2rem;
+  }
+  .right__side__logo__img__authlayout__95fe15c {
+    display: block;
+    padding-block: 1rem 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=src_49565b._.css.map*/

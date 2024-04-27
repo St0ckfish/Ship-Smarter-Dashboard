@@ -1,0 +1,13 @@
+/* [project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.module.css [app-ssr] (css) */
+.menu__item__link__SidebarMenuIcon__4d2b5981 {
+  column-gap: 1rem;
+  align-items: center;
+  padding-block: 0.875rem;
+  padding-inline: 1.875rem;
+}
+.active__SidebarMenuIcon__4d2b5981 {
+  width: auto;
+  background: linear-gradient(180deg, #f2f2f2 -77.59%, rgba(242, 242, 242, 0) 136.21%);
+  border-radius: 10px;
+}
+/*# sourceMappingURL=2da86_DashboardSidebar_components_SidebarMenuIcon_SidebarMenuIcon_module_31ffea.css.map*/

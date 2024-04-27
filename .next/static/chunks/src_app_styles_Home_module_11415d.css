@@ -1,0 +1,17 @@
+/* [project]/src/app/styles/Home.module.css [app-client] (css) */
+.menu__Home__c6e2dfaa {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+}
+.main__Home__c6e2dfaa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=src_app_styles_Home_module_11415d.css.map*/

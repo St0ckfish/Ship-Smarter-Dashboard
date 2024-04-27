@@ -1,0 +1,31 @@
+/* [project]/src/app/(Auth)/authlayout.module.css [app-client] (css) */
+.container__authlayout__95fe15c {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  justify-content: space-between;
+}
+.right__side__authlayout__95fe15c {
+  padding-inline: var(--heading-padding-inline);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right__side__logo__img__authlayout__95fe15c {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .container__authlayout__95fe15c {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .right__side__authlayout__95fe15c {
+    padding-block: 2rem;
+  }
+  .right__side__logo__img__authlayout__95fe15c {
+    display: block;
+    padding-block: 1rem 1.5rem;
+  }
+}
+/*# sourceMappingURL=src_app_(Auth)_authlayout_module_b52d8e.css.map*/
