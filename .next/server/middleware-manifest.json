@@ -35,6 +35,11 @@
           "locale": false,
           "originalSource": "/distributors",
           "regexp": "^/distributors$"
+        },
+        {
+          "locale": false,
+          "originalSource": "/confirmation",
+          "regexp": "^/confirmation$"
         }
       ]
     }

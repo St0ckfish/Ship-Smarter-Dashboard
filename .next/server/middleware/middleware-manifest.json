@@ -30,6 +30,10 @@
         {
           "locale": false,
           "originalSource": "/distributors"
+        },
+        {
+          "locale": false,
+          "originalSource": "/confirmation"
         }
       ]
     }

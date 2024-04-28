@@ -397,8 +397,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcon
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$BackArrowSvgIcon$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/BackArrowSvgIcon.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$js$2d$cookie$2f$dist$2f$js$2e$cookie$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/js-cookie/dist/js.cookie.mjs [app-ssr] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
+;
 ;
 ;
 ;
@@ -422,7 +424,7 @@ const menuItems = [
             height: 24
         }, void 0, false, {
             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 20,
+            lineNumber: 21,
             columnNumber: 11
         }, this)
     },
@@ -434,7 +436,7 @@ const menuItems = [
             height: 24
         }, void 0, false, {
             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 26,
+            lineNumber: 27,
             columnNumber: 11
         }, this)
     },
@@ -446,7 +448,7 @@ const menuItems = [
             height: 24
         }, void 0, false, {
             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 31,
+            lineNumber: 32,
             columnNumber: 11
         }, this)
     },
@@ -458,7 +460,7 @@ const menuItems = [
             height: 24
         }, void 0, false, {
             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 36,
+            lineNumber: 37,
             columnNumber: 11
         }, this)
     },
@@ -470,23 +472,27 @@ const menuItems = [
             height: 24
         }, void 0, false, {
             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 41,
+            lineNumber: 42,
             columnNumber: 11
         }, this)
     },
     {
         title: "log-out",
-        path: "/",
+        path: "/login",
         icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$LogoutSvgIcon$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
             width: 24,
             height: 24
         }, void 0, false, {
             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 46,
+            lineNumber: 47,
             columnNumber: 11
-        }, this)
+        }, this),
+        onClick: ()=>handleLogout()
     }
 ];
+function handleLogout() {
+    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$js$2d$cookie$2f$dist$2f$js$2e$cookie$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].remove('token');
+}
 function DashboardSidebar({ sendToLayout }) {
     const [icons, setIcons] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"](false);
     const [narrowSidebar, setNarrowSidebar] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"](false);
@@ -507,12 +513,12 @@ function DashboardSidebar({ sendToLayout }) {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"][`${icons ? "right__arrow" : ""}`]
                     }, void 0, false, {
                         fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                        lineNumber: 76,
+                        lineNumber: 82,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                    lineNumber: 75,
+                    lineNumber: 81,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -522,12 +528,12 @@ function DashboardSidebar({ sendToLayout }) {
                         alt: ""
                     }, void 0, false, {
                         fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                        lineNumber: 81,
+                        lineNumber: 87,
                         columnNumber: 22
                     }, this)
                 }, void 0, false, {
                     fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                    lineNumber: 80,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"]("nav", {
@@ -537,30 +543,30 @@ function DashboardSidebar({ sendToLayout }) {
                             menuItem: item
                         }, index, false, {
                             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                            lineNumber: 86,
+                            lineNumber: 92,
                             columnNumber: 15
                         }, this) : /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             menuItem: item
                         }, index, false, {
                             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                            lineNumber: 88,
+                            lineNumber: 94,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                    lineNumber: 83,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 72,
+            lineNumber: 78,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-        lineNumber: 65,
+        lineNumber: 71,
         columnNumber: 5
     }, this);
 }

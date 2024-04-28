@@ -24,7 +24,8 @@ const config = {
         '/new-collection',
         '/awaiting-collection',
         '/shipping-company',
-        '/distributors'
+        '/distributors',
+        '/confirmation'
     ]
 };
 

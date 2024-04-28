@@ -12,6 +12,7 @@ import LogoutIconSvg from "@/components/SvgIcons/LogoutSvgIcon";
 import BackArrowIconSvg from "@/components/SvgIcons/BackArrowSvgIcon";
 import { useState } from "react";
 import SidebarMenuIcon from "./components/SidebarMenuIcon/SidebarMenuIcon";
+import Cookie from 'js-cookie'
 
 const menuItems = [
   {
@@ -42,10 +43,15 @@ const menuItems = [
   },
   {
     title: "log-out",
-    path: "/",
+    path: "/login",
     icon: <LogoutIconSvg width={24} height={24} />,
+    onClick: () => handleLogout(),
   },
 ];
+function handleLogout() {
+
+  Cookie.remove('token');
+}
 
 function DashboardSidebar({
   sendToLayout,

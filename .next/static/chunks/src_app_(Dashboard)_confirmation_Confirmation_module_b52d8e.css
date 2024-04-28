@@ -1,0 +1,93 @@
+/* [project]/src/app/(Dashboard)/confirmation/Confirmation.module.css [app-client] (css) */
+.container__Confirmation__194a0cfb {
+  padding-block: 2rem;
+  padding-inline: 2rem;
+}
+.inner__wrapper__Confirmation__194a0cfb {
+  background: linear-gradient(110.86deg, rgba(99, 21, 219, 0.0625) 0.79%, rgba(236, 46, 118, 0.125) 100%);
+  box-shadow: 0px 26px 23px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+}
+.header__brand__Confirmation__194a0cfb {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  padding-bottom: 1rem;
+}
+.company__name__Confirmation__194a0cfb {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 21.94px;
+  color: rgba(44, 44, 44, 1);
+}
+.header__info__Confirmation__194a0cfb {
+  padding-block: 1rem;
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+.header__info__phone__Confirmation__194a0cfb {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.header__info__location__Confirmation__194a0cfb {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.form__inner__wrapper__Confirmation__194a0cfb {
+  padding-block: 1.5rem;
+}
+.form__first__row__Confirmation__194a0cfb {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+.form__second__row__Confirmation__194a0cfb {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+.input__Confirmation__194a0cfb {
+  grid-column: span 3/ span 3;
+}
+.buttons__wrapper__Confirmation__194a0cfb {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 1.5rem;
+}
+.form__button__Confirmation__194a0cfb {
+  outline: none;
+  min-width: 11rem;
+  min-height: 2.5rem;
+  padding-block: 0.6rem;
+  padding-inline: 1rem;
+  border: 1px solid rgba(99, 21, 219, 1);
+  box-shadow: 0px 16px 32px 0px rgba(99, 21, 219, 0.25);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.confirm__button__Confirmation__194a0cfb {
+  background: rgba(99, 21, 219, 1);
+  color: #fff;
+  font-size: 1.4rem;
+}
+.cancel__button__Confirmation__194a0cfb {
+  color: rgba(99, 21, 219, 1);
+  font-size: 1.4rem;
+  background: transparent;
+}
+/*# sourceMappingURL=src_app_(Dashboard)_confirmation_Confirmation_module_b52d8e.css.map*/

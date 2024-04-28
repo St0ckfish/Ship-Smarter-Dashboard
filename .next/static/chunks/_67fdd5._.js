@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_8b83a7._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_67fdd5._.js", {
 
 "[project]/src/components/MainLayout/MainLayout.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
@@ -33,28 +33,232 @@ var _c;
 __turbopack_refresh__.register(_c, "MainLayout");
 
 })()),
-"[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
+"[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
+"use strict";
+
+__turbopack_esm__({
+    "default": ()=>__TURBOPACK__default__export__
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuLink/SidebarMenuLink.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg__$5b$app$2d$client$5d$__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__("[project]/public/images/Frame 1686560207.svg.mjs/(IMAGE)/[project]/public/images/Frame 1686560207.svg [app-client] (static) (structured image object, ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DashboardSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/DashboardSvgIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$NewCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/NewCollectionSvgIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$AwaitingCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/AwaitingCollectionSvgIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$ShippingCompanySvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/ShippingCompanySvgIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DistributorsSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/DistributorsSvgIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$LogoutSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/LogoutSvgIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$BackArrowSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/BackArrowSvgIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$js$2d$cookie$2f$dist$2f$js$2e$cookie$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/js-cookie/dist/js.cookie.mjs [app-client] (ecmascript)");
+"__TURBOPACK__ecmascript__hoisting__location__";
+;
+var _s = __turbopack_refresh__.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const menuItems = [
+    {
+        title: "Dashboard",
+        path: "/dashboard",
+        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DashboardSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            width: 24,
+            height: 24
+        }, void 0, false, {
+            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+            lineNumber: 21,
+            columnNumber: 11
+        }, this)
+    },
+    {
+        title: "New Collection",
+        path: "/new-collection",
+        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$NewCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            width: 24,
+            height: 24
+        }, void 0, false, {
+            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+            lineNumber: 27,
+            columnNumber: 11
+        }, this)
+    },
+    {
+        title: "Awaiting Collection",
+        path: "/awaiting-collection",
+        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$AwaitingCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            width: 24,
+            height: 24
+        }, void 0, false, {
+            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+            lineNumber: 32,
+            columnNumber: 11
+        }, this)
+    },
+    {
+        title: "Shipping Company",
+        path: "/shipping-company",
+        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$ShippingCompanySvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            width: 24,
+            height: 24
+        }, void 0, false, {
+            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+            lineNumber: 37,
+            columnNumber: 11
+        }, this)
+    },
+    {
+        title: "Distributors",
+        path: "/distributors",
+        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DistributorsSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            width: 24,
+            height: 24
+        }, void 0, false, {
+            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+            lineNumber: 42,
+            columnNumber: 11
+        }, this)
+    },
+    {
+        title: "log-out",
+        path: "/login",
+        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$LogoutSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            width: 24,
+            height: 24
+        }, void 0, false, {
+            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+            lineNumber: 47,
+            columnNumber: 11
+        }, this)
+    }
+];
+function handleMenuItemClick(item) {
+    if (item.title === 'log-out') {
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$js$2d$cookie$2f$dist$2f$js$2e$cookie$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].remove('token'); // Remove the token from the cookie
+    // You can also perform other logout-related tasks here, such as redirecting the user to the login page
+    }
+}
+function DashboardSidebar({ sendToLayout }) {
+    _s();
+    const [icons, setIcons] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const [narrowSidebar, setNarrowSidebar] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    function toggleIcons() {
+        setIcons((prevState)=>!prevState);
+        setNarrowSidebar((prevState)=>!prevState);
+        sendToLayout(narrowSidebar);
+    }
+    return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${narrowSidebar ? "narrow__sidebar__wrapper" : "sidebar__wrapper"}`],
+        children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("aside", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${narrowSidebar ? "narrow__sidebar" : "sidebar"}`],
+            children: [
+                /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("button", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["back__arrow__button"],
+                    onClick: toggleIcons,
+                    children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$BackArrowSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${icons ? "right__arrow" : ""}`]
+                    }, void 0, false, {
+                        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+                        lineNumber: 84,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+                    lineNumber: 83,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["logo__img"],
+                    children: !icons && /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg__$5b$app$2d$client$5d$__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                        alt: ""
+                    }, void 0, false, {
+                        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+                        lineNumber: 89,
+                        columnNumber: 22
+                    }, this)
+                }, void 0, false, {
+                    fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+                    lineNumber: 88,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("nav", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["items__container"],
+                    children: menuItems.map((item, index)=>{
+                        return icons ? /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            menuItem: item,
+                            onClick: ()=>handleMenuItemClick(item)
+                        }, index, false, {
+                            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+                            lineNumber: 94,
+                            columnNumber: 15
+                        }, this) : /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            menuItem: item
+                        }, index, false, {
+                            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+                            lineNumber: 96,
+                            columnNumber: 15
+                        }, this);
+                    })
+                }, void 0, false, {
+                    fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+                    lineNumber: 91,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+            lineNumber: 80,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
+        lineNumber: 73,
+        columnNumber: 5
+    }, this);
+}
+_s(DashboardSidebar, "PMQK6VHU2epcj2sVvs2Pdu5iFKA=");
+_c = DashboardSidebar;
+const __TURBOPACK__default__export__ = DashboardSidebar;
+var _c;
+__turbopack_refresh__.register(_c, "DashboardSidebar");
+
+})()),
+"[project]/src/app/(Dashboard)/DashboardLayout.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__({
-  "back__arrow__button": "back__arrow__button__DashboardSidebar__dd5bc386",
-  "items__container": "items__container__DashboardSidebar__dd5bc386",
-  "narrow__sidebar": "narrow__sidebar__DashboardSidebar__dd5bc386",
-  "narrow__sidebar__wrapper": "narrow__sidebar__wrapper__DashboardSidebar__dd5bc386",
-  "right__arrow": "right__arrow__DashboardSidebar__dd5bc386",
-  "sidebar": "sidebar__DashboardSidebar__dd5bc386",
-  "sidebar__wrapper": "sidebar__wrapper__DashboardSidebar__dd5bc386",
+  "container": "container__DashboardLayout__afce659b",
+  "right__side": "right__side__DashboardLayout__afce659b",
+  "right__side__logo__img": "right__side__logo__img__DashboardLayout__afce659b",
+  "right__side__wrapper": "right__side__wrapper__DashboardLayout__afce659b",
+  "wide__container": "wide__container__DashboardLayout__afce659b",
+  "wide__right__side": "wide__right__side__DashboardLayout__afce659b",
 });
 
 })()),
-"[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
+"[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__({
-  "active": "active__SidebarMenuLink__9755d990",
-  "menu__item__link": "menu__item__link__SidebarMenuLink__9755d990",
+  "active": "active__SidebarMenuLink__db52a7b9",
+  "menu__item__link": "menu__item__link__SidebarMenuLink__db52a7b9",
 });
 
 })()),
-"[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuLink/SidebarMenuLink.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
+"[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
 
 __turbopack_esm__({
@@ -62,7 +266,7 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$Dashboard$292f$DashboardComponents$2f$SidebarFlyout$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
@@ -77,13 +281,13 @@ function SidebarMenuLink({ menuItem }) {
     const activeMenuItem = menuItem.path;
     return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         href: menuItem.path,
-        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["menu__item__link"]} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${pathname === activeMenuItem ? "active" : ""}`]} `,
+        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$Dashboard$292f$DashboardComponents$2f$SidebarFlyout$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["menu__item__link"]} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$Dashboard$292f$DashboardComponents$2f$SidebarFlyout$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${pathname === activeMenuItem ? "active" : ""}`]} `,
         children: [
             menuItem.icon,
             menuItem.title
         ]
     }, void 0, true, {
-        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuLink/SidebarMenuLink.tsx>",
+        fileName: "<[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.tsx>",
         lineNumber: 16,
         columnNumber: 9
     }, this);
@@ -370,322 +574,6 @@ _c = BackArrowIconSvg;
 const __TURBOPACK__default__export__ = BackArrowIconSvg;
 var _c;
 __turbopack_refresh__.register(_c, "BackArrowIconSvg");
-
-})()),
-"[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__({
-  "active": "active__SidebarMenuIcon__4d2b5981",
-  "menu__item__link": "menu__item__link__SidebarMenuIcon__4d2b5981",
-});
-
-})()),
-"[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>SidebarMenuIcon
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.module.css [app-client] (css module)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-var _s = __turbopack_refresh__.signature();
-"use client";
-;
-;
-;
-function SidebarMenuIcon({ menuItem }) {
-    _s();
-    const activeMenuIcon = menuItem.path;
-    const pathname = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]();
-    return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: menuItem.path,
-        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["menu__item__link"]} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${pathname === activeMenuIcon ? "active" : ""}`]} `,
-        children: menuItem.icon
-    }, void 0, false, {
-        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.tsx>",
-        lineNumber: 16,
-        columnNumber: 9
-    }, this);
-}
-_s(SidebarMenuIcon, "xbyQPtUVMO7MNj7WjJlpdWqRcTo=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
-    ];
-});
-_c = SidebarMenuIcon;
-var _c;
-__turbopack_refresh__.register(_c, "SidebarMenuIcon");
-
-})()),
-"[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.module.css [app-client] (css module)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuLink/SidebarMenuLink.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg__$5b$app$2d$client$5d$__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__("[project]/public/images/Frame 1686560207.svg.mjs/(IMAGE)/[project]/public/images/Frame 1686560207.svg [app-client] (static) (structured image object, ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DashboardSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/DashboardSvgIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$NewCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/NewCollectionSvgIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$AwaitingCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/AwaitingCollectionSvgIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$ShippingCompanySvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/ShippingCompanySvgIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DistributorsSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/DistributorsSvgIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$LogoutSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/LogoutSvgIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$BackArrowSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/SvgIcons/BackArrowSvgIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$js$2d$cookie$2f$dist$2f$js$2e$cookie$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/js-cookie/dist/js.cookie.mjs [app-client] (ecmascript)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-var _s = __turbopack_refresh__.signature();
-"use client";
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-const menuItems = [
-    {
-        title: "Dashboard",
-        path: "/dashboard",
-        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DashboardSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            width: 24,
-            height: 24
-        }, void 0, false, {
-            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 21,
-            columnNumber: 11
-        }, this)
-    },
-    {
-        title: "New Collection",
-        path: "/new-collection",
-        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$NewCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            width: 24,
-            height: 24
-        }, void 0, false, {
-            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 27,
-            columnNumber: 11
-        }, this)
-    },
-    {
-        title: "Awaiting Collection",
-        path: "/awaiting-collection",
-        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$AwaitingCollectionSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            width: 24,
-            height: 24
-        }, void 0, false, {
-            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 32,
-            columnNumber: 11
-        }, this)
-    },
-    {
-        title: "Shipping Company",
-        path: "/shipping-company",
-        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$ShippingCompanySvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            width: 24,
-            height: 24
-        }, void 0, false, {
-            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 37,
-            columnNumber: 11
-        }, this)
-    },
-    {
-        title: "Distributors",
-        path: "/distributors",
-        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$DistributorsSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            width: 24,
-            height: 24
-        }, void 0, false, {
-            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 42,
-            columnNumber: 11
-        }, this)
-    },
-    {
-        title: "log-out",
-        path: "/login",
-        icon: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$LogoutSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            width: 24,
-            height: 24
-        }, void 0, false, {
-            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 47,
-            columnNumber: 11
-        }, this),
-        onClick: ()=>handleLogout()
-    }
-];
-function handleLogout() {
-    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$js$2d$cookie$2f$dist$2f$js$2e$cookie$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].remove('token');
-}
-function DashboardSidebar({ sendToLayout }) {
-    _s();
-    const [icons, setIcons] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
-    const [narrowSidebar, setNarrowSidebar] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
-    function toggleIcons() {
-        setIcons((prevState)=>!prevState);
-        setNarrowSidebar((prevState)=>!prevState);
-        sendToLayout(narrowSidebar);
-    }
-    return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
-        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${narrowSidebar ? "narrow__sidebar__wrapper" : "sidebar__wrapper"}`],
-        children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("aside", {
-            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${narrowSidebar ? "narrow__sidebar" : "sidebar"}`],
-            children: [
-                /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("button", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["back__arrow__button"],
-                    onClick: toggleIcons,
-                    children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SvgIcons$2f$BackArrowSvgIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${icons ? "right__arrow" : ""}`]
-                    }, void 0, false, {
-                        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                        lineNumber: 82,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                    lineNumber: 81,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["logo__img"],
-                    children: !icons && /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$images$2f$Frame__1686560207$2e$svg__$5b$app$2d$client$5d$__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                        alt: ""
-                    }, void 0, false, {
-                        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                        lineNumber: 87,
-                        columnNumber: 22
-                    }, this)
-                }, void 0, false, {
-                    fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                    lineNumber: 86,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"]("nav", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$DashboardSidebar$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["items__container"],
-                    children: menuItems.map((item, index)=>{
-                        return icons ? /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuIcon$2f$SidebarMenuIcon$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            menuItem: item
-                        }, index, false, {
-                            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                            lineNumber: 92,
-                            columnNumber: 15
-                        }, this) : /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$UiComponents$2f$DashboardSidebar$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            menuItem: item
-                        }, index, false, {
-                            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                            lineNumber: 94,
-                            columnNumber: 15
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-                    lineNumber: 89,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-            lineNumber: 78,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "<[project]/src/components/UiComponents/DashboardSidebar/DashboardSidebar.tsx>",
-        lineNumber: 71,
-        columnNumber: 5
-    }, this);
-}
-_s(DashboardSidebar, "PMQK6VHU2epcj2sVvs2Pdu5iFKA=");
-_c = DashboardSidebar;
-const __TURBOPACK__default__export__ = DashboardSidebar;
-var _c;
-__turbopack_refresh__.register(_c, "DashboardSidebar");
-
-})()),
-"[project]/src/app/(Dashboard)/DashboardLayout.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__({
-  "container": "container__DashboardLayout__afce659b",
-  "right__side": "right__side__DashboardLayout__afce659b",
-  "right__side__logo__img": "right__side__logo__img__DashboardLayout__afce659b",
-  "right__side__wrapper": "right__side__wrapper__DashboardLayout__afce659b",
-  "wide__container": "wide__container__DashboardLayout__afce659b",
-  "wide__right__side": "wide__right__side__DashboardLayout__afce659b",
-});
-
-})()),
-"[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__({
-  "active": "active__SidebarMenuLink__db52a7b9",
-  "menu__item__link": "menu__item__link__SidebarMenuLink__db52a7b9",
-});
-
-})()),
-"[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$Dashboard$292f$DashboardComponents$2f$SidebarFlyout$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css module)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-var _s = __turbopack_refresh__.signature();
-"use client";
-;
-;
-;
-function SidebarMenuLink({ menuItem }) {
-    _s();
-    const pathname = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]();
-    const activeMenuItem = menuItem.path;
-    return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: menuItem.path,
-        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$Dashboard$292f$DashboardComponents$2f$SidebarFlyout$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["menu__item__link"]} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f28$Dashboard$292f$DashboardComponents$2f$SidebarFlyout$2f$components$2f$SidebarMenuLink$2f$SidebarMenuLink$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"][`${pathname === activeMenuItem ? "active" : ""}`]} `,
-        children: [
-            menuItem.icon,
-            menuItem.title
-        ]
-    }, void 0, true, {
-        fileName: "<[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.tsx>",
-        lineNumber: 16,
-        columnNumber: 9
-    }, this);
-}
-_s(SidebarMenuLink, "xbyQPtUVMO7MNj7WjJlpdWqRcTo=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
-    ];
-});
-_c = SidebarMenuLink;
-const __TURBOPACK__default__export__ = SidebarMenuLink;
-var _c;
-__turbopack_refresh__.register(_c, "SidebarMenuLink");
 
 })()),
 "[project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuIcon/SidebarMenuIcon.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
@@ -1123,4 +1011,4 @@ __turbopack_refresh__.register(_c, "Layout");
 })()),
 }]);
 
-//# sourceMappingURL=_8b83a7._.js.map
+//# sourceMappingURL=_67fdd5._.js.map

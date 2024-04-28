@@ -1,3 +1,7 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/(Dashboard)/confirmation/page": "app/(Dashboard)/confirmation/page.js",
+  "/(Dashboard)/dashboard/page": "app/(Dashboard)/dashboard/page.js",
+  "/(Auth)/login/page": "app/(Auth)/login/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

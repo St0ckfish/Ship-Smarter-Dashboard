@@ -1,0 +1,181 @@
+/* [project]/src/components/MainLayout/MainLayout.module.css [app-client] (css) */
+.main__container__MainLayout__c96ef225 {
+  --padding-inline-main-container: calc(3vw + 0.65rem);
+  max-width: var(--max-width);
+}
+
+/* [project]/src/app/(Dashboard)/DashboardLayout.module.css [app-client] (css) */
+.container__DashboardLayout__afce659b {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.wide__container__DashboardLayout__afce659b {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.right__side__wrapper__DashboardLayout__afce659b {
+  width: 100%;
+  height: 100%;
+  width: calc(100% - 18rem);
+}
+.wide__right__side__DashboardLayout__afce659b {
+  width: 100%;
+  height: 100%;
+  width: calc(100% - 7rem);
+}
+.right__side__DashboardLayout__afce659b {
+  padding-block: 1rem 2rem;
+  padding-inline: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 250, 250, 1);
+}
+.right__side__logo__img__DashboardLayout__afce659b {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .container__DashboardLayout__afce659b {
+    display: block;
+  }
+  .right__side__DashboardLayout__afce659b {
+    padding-block: 2rem;
+  }
+  .right__side__logo__img__DashboardLayout__afce659b {
+    display: block;
+    padding-block: 1rem 1.5rem;
+  }
+}
+
+/* [project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css) */
+.menu__item__link__SidebarMenuLink__db52a7b9 {
+  display: flex;
+  column-gap: 0.6rem;
+  align-items: center;
+  padding-block: 0.875rem;
+  padding-inline: 1rem;
+  font-size: 1rem;
+}
+.active__SidebarMenuLink__db52a7b9 {
+  width: auto;
+  background: linear-gradient(180deg, #f2f2f2 -77.59%, rgba(242, 242, 242, 0) 136.21%);
+  border-radius: 10px;
+}
+
+/* [project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuIcon/SidebarMenuIcon.module.css [app-client] (css) */
+.menu__item__link__SidebarMenuIcon__c33fb5bd {
+  column-gap: 1rem;
+  align-items: center;
+  padding-block: 0.875rem;
+  padding-inline: 1.875rem;
+}
+.active__SidebarMenuIcon__c33fb5bd {
+  width: auto;
+  background: linear-gradient(180deg, #f2f2f2 -77.59%, rgba(242, 242, 242, 0) 136.21%);
+  border-radius: 10px;
+}
+
+/* [project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/SidebarFlyoutGlobalStyles.css [app-client] (css) */
+.toggle__checkbox {
+  display: none;
+}
+.hamburger__button {
+  position: fixed;
+  top: 1.1rem;
+  left: 0.7rem;
+  z-index: 1001;
+  display: none;
+  cursor: pointer;
+}
+.mobile__menu__inner__wrapper {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  background-color: #6315db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar__wrapper {
+  height: 100%;
+  overflow: auto;
+  width: 16rem;
+}
+.narrow__sidebar__wrapper {
+  width: 7rem;
+}
+.sidebar {
+  overflow: auto;
+  background: linear-gradient(154.99deg, #6315db 32.75%, rgba(236, 46, 118, 0.5) 99.24%);
+  width: 16rem;
+  padding-inline: 0.5rem;
+  padding-block: 1rem 2rem;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+  min-height: 100dvh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+.narrow__sidebar {
+  background: linear-gradient(154.99deg, #6315db 32.75%, rgba(236, 46, 118, 0.5) 99.24%);
+  overflow: auto;
+  width: 7rem;
+  padding-inline: 0.8rem;
+  padding-block: 1.2rem 2rem;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  text-align: center;
+  min-height: 100dvh;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+.back__arrow__button {
+  all: unset;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding-top: 0.3rem;
+}
+.right__arrow {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(180deg) translateX(-13px);
+}
+.items__container {
+  padding-block: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+@media screen and (max-width: 992px) {
+  .hamburger__button {
+    display: block;
+  }
+  .toggle__checkbox:checked ~ .sidebar {
+    display: flex;
+  }
+  .toggle__checkbox:checked ~ .narrow__sidebar {
+    display: flex;
+  }
+  .toggle__checkbox:checked + .hamburger__button .icon {
+    fill: #6315db;
+  }
+  .toggle__checkbox:checked + .hamburger__button .mobile__menu__inner__wrapper {
+    background-color: #fff;
+  }
+}
+
+/*# sourceMappingURL=src_1b642d._.css.map*/
