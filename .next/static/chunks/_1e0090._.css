@@ -14,6 +14,7 @@
   grid-template-columns: 70% auto;
   align-items: center;
   row-gap: 1rem;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
 }
 .header__dashbaord__88f35eca {
@@ -36,6 +37,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  -moz-column-gap: 1rem;
   column-gap: 1rem;
   font-size: 1.125rem;
   font-weight: var(--fw-600);
@@ -62,6 +64,7 @@
 .numbers__dashbaord__88f35eca {
   display: flex;
   align-items: center;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
 }
 .total__amount__dashbaord__88f35eca {
@@ -97,6 +100,7 @@
 .numbers__StatsCard__8bb9f1e1 {
   display: flex;
   align-items: center;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
 }
 .total__amount__StatsCard__8bb9f1e1 {
@@ -133,6 +137,8 @@
 .m_468e7eda {
   padding-top: 0;
   padding-bottom: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
 }
 .m_468e7eda::-webkit-calendar-picker-indicator {
@@ -167,6 +173,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
   user-select: none;
   cursor: pointer;
   background-color: transparent;
@@ -191,6 +199,8 @@
   }
 }
 .m_396ce5cb:where([data-static]) {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
   user-select: auto;
   cursor: default;
 }
@@ -280,6 +290,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
   user-select: none;
   cursor: pointer;
   background-color: transparent;
@@ -388,6 +400,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
   user-select: none;
   opacity: 1;
   cursor: pointer;

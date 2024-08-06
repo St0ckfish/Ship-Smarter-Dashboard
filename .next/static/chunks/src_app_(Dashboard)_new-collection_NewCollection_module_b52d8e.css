@@ -1,0 +1,19 @@
+/* [project]/src/app/(Dashboard)/new-collection/NewCollection.module.css [app-client] (css) */
+.header__NewCollection__d5780e44 h1 {
+  font-size: var(--h1-fsz-compact);
+  font-weight: 500;
+}
+.header__NewCollection__d5780e44 {
+  padding-bottom: 2rem;
+}
+.container__NewCollection__d5780e44 {
+  width: 100%;
+}
+.wrapper__NewCollection__d5780e44 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4rem;
+  width: 100%;
+}
+/*# sourceMappingURL=src_app_(Dashboard)_new-collection_NewCollection_module_b52d8e.css.map*/

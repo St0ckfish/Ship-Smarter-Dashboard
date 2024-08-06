@@ -1,5 +1,8 @@
 /* 👇 Make sure the styles are applied in the correct order */
+
+
 @layer mantine, mantine-datatable;
+
 
 /* Global CSS Styles 
 ######################
@@ -30,6 +33,8 @@ File Sections by lines
 /* Font ==> English & Arabic Font ==> ["Montserrat"] */
 
 /* Normal */
+
+
 @font-face {
   font-family: Montserrat;
   src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
@@ -51,6 +56,9 @@ File Sections by lines
 /* ------> Start of Global CSS Selectors */
 
 /* ==> Root Styles ==> */
+
+
+
 :root {
   /* Global Varibales */
 
@@ -300,7 +308,7 @@ body {
   /* background: var(--background-color); */
   /* color: var(--text-color-light); */
   margin: 0 auto;
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

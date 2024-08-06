@@ -88,7 +88,7 @@ const __TURBOPACK__default__export__ = SidebarMenuLink;
 })()),
 "[project]/public/images/Frame 1686560207.svg [app-ssr] (static)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/Frame 1686560207.c996f4e0.svg");
+__turbopack_export_value__("/_next/static/media/Frame 1686560207.8365d35a.svg");
 })()),
 "[project]/public/images/Frame 1686560207.svg.mjs/(IMAGE)/[project]/public/images/Frame 1686560207.svg [app-ssr] (static) (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
 "use strict";

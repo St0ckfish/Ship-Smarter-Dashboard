@@ -14,6 +14,7 @@
   grid-template-columns: 70% auto;
   align-items: center;
   row-gap: 1rem;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
 }
 .header__dashbaord__88f35eca {
@@ -36,6 +37,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  -moz-column-gap: 1rem;
   column-gap: 1rem;
   font-size: 1.125rem;
   font-weight: var(--fw-600);
@@ -62,6 +64,7 @@
 .numbers__dashbaord__88f35eca {
   display: flex;
   align-items: center;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
 }
 .total__amount__dashbaord__88f35eca {

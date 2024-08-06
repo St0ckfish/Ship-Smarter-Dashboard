@@ -1,0 +1,29 @@
+/* [project]/src/components/ActionsButtonXL/ActionsButtonXL.module.css [app-ssr] (css) */
+.actions__button__ActionsButtonXL__8a7d3d66 {
+  background: #6315db;
+  box-shadow: 0px 16px 32px 0px #6315db26;
+  min-width: 16.25rem;
+  height: 2.9rem;
+  padding-block: 1rem 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 16px 32px 0px #6315db26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+.button__icon__ActionsButtonXL__8a7d3d66 {
+  font-size: 2rem;
+}
+.button__text__ActionsButtonXL__8a7d3d66 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/*# sourceMappingURL=src_components_ActionsButtonXL_ActionsButtonXL_module_187b61.css.map*/

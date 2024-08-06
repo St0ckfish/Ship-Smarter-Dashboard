@@ -16,6 +16,7 @@
 .numbers__StatsCard__8bb9f1e1 {
   display: flex;
   align-items: center;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
 }
 .total__amount__StatsCard__8bb9f1e1 {
