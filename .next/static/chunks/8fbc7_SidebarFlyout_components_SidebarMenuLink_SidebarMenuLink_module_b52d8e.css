@@ -1,6 +1,7 @@
 /* [project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css) */
 .menu__item__link__SidebarMenuLink__db52a7b9 {
   display: flex;
+  -moz-column-gap: 0.6rem;
   column-gap: 0.6rem;
   align-items: center;
   padding-block: 0.875rem;

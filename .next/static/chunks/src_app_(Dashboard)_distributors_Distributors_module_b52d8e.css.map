@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/app/(Dashboard)/distributors/Distributors.module.css"],"sourcesContent":[".wrap{\r\n    \r\n}\r\n/*# sourceMappingURL=Distributors.module.css.map */"],"names":[],"mappings":"AAAA,CAAC,4BAAI,CAAA,CAAC,AAEN,CAAC"}},
+    {"offset": {"line": 1, "column": 32}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

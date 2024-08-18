@@ -78,6 +78,7 @@
 /* [project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css) */
 .menu__item__link__SidebarMenuLink__9755d990 {
   display: flex;
+  -moz-column-gap: 0.6rem;
   column-gap: 0.6rem;
   align-items: center;
   padding-block: 0.875rem;
@@ -92,6 +93,7 @@
 
 /* [project]/src/components/UiComponents/DashboardSidebar/components/SidebarMenuIcon/SidebarMenuIcon.module.css [app-client] (css) */
 .menu__item__link__SidebarMenuIcon__4d2b5981 {
+  -moz-column-gap: 1rem;
   column-gap: 1rem;
   align-items: center;
   padding-block: 0.875rem;
@@ -150,6 +152,7 @@
 /* [project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuLink/SidebarMenuLink.module.css [app-client] (css) */
 .menu__item__link__SidebarMenuLink__db52a7b9 {
   display: flex;
+  -moz-column-gap: 0.6rem;
   column-gap: 0.6rem;
   align-items: center;
   padding-block: 0.875rem;
@@ -164,6 +167,7 @@
 
 /* [project]/src/app/(Dashboard)/DashboardComponents/SidebarFlyout/components/SidebarMenuIcon/SidebarMenuIcon.module.css [app-client] (css) */
 .menu__item__link__SidebarMenuIcon__c33fb5bd {
+  -moz-column-gap: 1rem;
   column-gap: 1rem;
   align-items: center;
   padding-block: 0.875rem;
